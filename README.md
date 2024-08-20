@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Portfolio Project
 
 This project is a portfolio website built using React, TypeScript, and Vite for the frontend, and Node.js with Express for the backend. It provides a minimal setup for a React application with TypeScript and includes configurations for Hot Module Replacement (HMR) and ESLint rules.
@@ -129,3 +130,6 @@ Feel free to contribute to this project by submitting issues or pull requests. F
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
+=======
+# Portfolio_Frontend
+>>>>>>> 9fd0979a5165b3d83d4ece01ce7b55be5096710a
