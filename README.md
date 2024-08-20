@@ -1,24 +1,17 @@
-<<<<<<< HEAD
 # Portfolio Project
 
-This project is a portfolio website built using React, TypeScript, and Vite for the frontend, and Node.js with Express for the backend. It provides a minimal setup for a React application with TypeScript and includes configurations for Hot Module Replacement (HMR) and ESLint rules.
+This project is a portfolio website built using React, TypeScript, and Vite. It provides a minimal setup for a React application with TypeScript and includes configurations for Hot Module Replacement (HMR) and ESLint rules.
 
 ## Technologies Used
 
-- **Frontend**:
-  - **React**: A JavaScript library for building user interfaces.
-  - **TypeScript**: A typed superset of JavaScript that compiles to plain JavaScript.
-  - **Vite**: A build tool that provides fast development and builds for modern web projects.
-  - **ESLint**: A tool for identifying and fixing problems in your JavaScript/TypeScript code.
-
-- **Backend**:
-  - **Node.js**: JavaScript runtime built on Chrome's V8 engine.
-  - **Express**: Fast, minimalist web framework for Node.js.
-  - **Nodemailer**: Module for sending emails from Node.js applications.
+- **React**: A JavaScript library for building user interfaces.
+- **TypeScript**: A typed superset of JavaScript that compiles to plain JavaScript.
+- **Vite**: A build tool that provides fast development and builds for modern web projects.
+- **ESLint**: A tool for identifying and fixing problems in your JavaScript/TypeScript code.
 
 ## Installation
 
-### Frontend
+To get started with this project, follow these steps:
 
 1. **Clone the Repository**
 
@@ -29,7 +22,6 @@ Install Dependencies
 
 bash
 Copy code
-cd frontend
 npm install
 Run the Development Server
 
@@ -37,52 +29,6 @@ bash
 Copy code
 npm run dev
 This will start the Vite development server with Hot Module Replacement (HMR) enabled.
-
-Backend
-Navigate to the Backend Directory
-
-bash
-Copy code
-cd backend
-Install Dependencies
-
-bash
-Copy code
-npm install
-Configure Environment Variables
-
-Create a .env file in the backend directory with the following content:
-
-env
-Copy code
-EMAIL_USER=your-email@gmail.com
-EMAIL_PASS=your-email-password
-Replace your-email@gmail.com and your-email-password with your actual email and password.
-
-Run the Backend Server
-
-bash
-Copy code
-npm start
-This will start the Express server on port 5000.
-
-Backend API
-Send Email
-Endpoint: /send-email
-
-Method: POST
-
-Request Body:
-
-json
-Copy code
-{
-  "name": "Your Name",
-  "email": "your-email@example.com",
-  "title": "Subject of the Email",
-  "message": "Body of the email"
-}
-Description: Sends an email using Nodemailer with the provided details.
 
 Plugins
 This project uses two official Vite plugins for React:
@@ -129,7 +75,3 @@ Feel free to contribute to this project by submitting issues or pull requests. F
 
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-=======
-# Portfolio_Frontend
->>>>>>> 9fd0979a5165b3d83d4ece01ce7b55be5096710a
