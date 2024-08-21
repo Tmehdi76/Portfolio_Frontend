@@ -11,7 +11,7 @@ const Footer = () => {
                     mehdittaleb@gmail.com
                 </p>
             </div>
-            <p>
+            <p className="self-center lg:self-start">
                 Web designer and front-end developer.
             </p>
         </div>
