@@ -3,9 +3,9 @@ import { FaGithub, FaInstagram, FaLinkedin, FaRegEnvelope } from "react-icons/fa
 const Footer = () => {
   return (
     <footer className="flex flex-col border-t p-14 pb-5 gap-20 text-text-white">
-      <div className="flex gap-20 justify-around">
-        <div className="flex flex-col gap-4 ">
-            <div className="flex text-text-gray items-center gap-1">
+      <div className="flex flex-wrap gap-20 justify-around">
+        <div className="flex flex-col gap-4  ">
+            <div className="flex text-text-gray items-center self-center lg:self-start gap-1">
                 <FaRegEnvelope/>
                 <p>
                     mehdittaleb@gmail.com

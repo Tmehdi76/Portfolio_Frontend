@@ -67,7 +67,7 @@ const Contacts = () => {
                 </div>    
             </div>
         </div>
-        <form className="flex flex-col gap-4 px-24 mt-20" onSubmit={handleSubmit}>
+        <form className="flex flex-col gap-4 lg:px-24 mt-20" onSubmit={handleSubmit}>
             <div className="w-full flex gap-3">
                 <input 
                     value={formInput.name}
