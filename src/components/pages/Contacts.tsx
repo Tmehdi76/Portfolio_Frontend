@@ -29,7 +29,7 @@ const Contacts = () => {
     const handleSubmit = async(e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
         try {
-            await axios.post('http://https://portfolio-backend-chi-five.vercel.app//send-email', formInput);
+            await axios.post('https://portfolio-backend-vzs1.onrender.com/send-email', formInput);
             alert('Message sent successfully');
             setFormInput({
                 name: '',
