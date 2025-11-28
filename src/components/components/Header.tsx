@@ -19,13 +19,13 @@ const Header = () => {
     <div className="left-11 w-px h-48 hidden md:block absolute bg-text-gray">
     </div>
     <div className="hidden md:flex absolute flex-col gap-3 text-text-gray left-9 text-xl top-48 mt-3">
-        <a title="github" className="hover:text-primary" href="github.com">
+        <a title="github" className="hover:text-primary" href="https://github.com/Tmehdi76">
           <FaGithub />
         </a>
-        <a title="linkedin" className="hover:text-primary" href="linkedin">
+        <a title="linkedin" className="hover:text-primary" href="https://www.linkedin.com/in/mehdi-taleb-914501267/">
           <FaLinkedin />
         </a>
-        <a title="instagram" className="hover:text-primary" href="instagram">
+        <a title="instagram" className="hover:text-primary" href="https://www.instagram.com/filinko.dev/">
           <FaInstagram />
         </a>
     </div>

@@ -59,7 +59,7 @@ const Contacts = () => {
                 <p className="font-medium">Message me here</p>
                 <div className="flex items-center">
                     <FaInstagram/>
-                    <p className="ml-1">mehdi__taleb</p>
+                    <p className="ml-1">filinko.dev</p>
                 </div>
                 <div className="flex items-center">
                     <FaRegEnvelope/>
@@ -72,12 +72,12 @@ const Contacts = () => {
                 <input 
                     value={formInput.name}
                     onChange={handleChange} 
-                    className="p-2 border w-1/2 border-gray-500 bg-background pb-4 bg-background focus:border-primary focus:outline-none" 
+                    className="p-2 border w-1/2 border-gray-500 pb-4 bg-background focus:border-primary focus:outline-none" 
                     type="text" name="name" id="name" placeholder="Name" />
                 <input 
                     value={formInput.email}
                     onChange={handleChange} 
-                    className="p-2 pb-4 border w-1/2 border-gray-500 bg-background bg-background focus:border-primary focus:outline-none" 
+                    className="p-2 pb-4 border w-1/2 border-gray-500  bg-background focus:border-primary focus:outline-none" 
                     type="email" name="email" id="email" placeholder="Email" />
             </div>
             <input value={formInput.title}
@@ -87,7 +87,7 @@ const Contacts = () => {
             <textarea 
                 value={formInput.message} 
                 onChange={handleChange} 
-                className="p-2 min-h-52 border border-gray-500 bg-background bg-background focus:border-primary focus:outline-none" 
+                className="p-2 min-h-52 border border-gray-500 bg-background focus:border-primary focus:outline-none" 
                 name="message" id="message" placeholder="Message"></textarea>
             <button className="border-primary  border py-1 max-w-20 hover:border-gray-500" type="submit">Send</button>
         </form>

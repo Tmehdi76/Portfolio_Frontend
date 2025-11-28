@@ -5,7 +5,8 @@ import Typewriter from 'typewriter-effect/dist/core';
 const Home = () => {
     useEffect(() => {
         const typewriter = new Typewriter('#typewriter-text', {
-            strings: ["Taleb Mehdi is a <span class='text-primary'>web designer</span><br />and <span class='text-primary'>front-end developer</span>"],
+            strings: ["Taleb Mehdi is a <span class='text-primary'>Full-Stack Web developer</span>"],
+            //strings: ["Taleb Mehdi is a <span class='text-primary'>Web designer</span><br />and <span class='text-primary'>Full-Stack Web developer</span>"],
             autoStart: true,
             delay: 50, 
             deleteSpeed: 20000000000000,

@@ -12,25 +12,25 @@ const Footer = () => {
                 </p>
             </div>
             <p className="self-center hidden sm:block lg:self-start">
-                Web designer and front-end developer.
+                Web designer and Full-Stack Web developer.
             </p>
         </div>
         <div className="flex flex-col gap-3">
             <h2 className="font-medium">Media</h2>
             <div className="flex gap-1">
-                <a title="github" className="hover:text-primary" href="github.com">
+                <a title="github" className="hover:text-primary" href="https://github.com/Tmehdi76">
                 <FaGithub />
                 </a>
-                <a title="linkedin" className="hover:text-primary" href="linkedin">
+                <a title="linkedin" className="hover:text-primary" href="https://www.linkedin.com/in/mehdi-taleb-914501267/">
                 <FaLinkedin />
                 </a>
-                <a title="instagram" className="hover:text-primary" href="instagram">
+                <a title="instagram" className="hover:text-primary" href="https://www.instagram.com/filinko.dev/">
                 <FaInstagram />
                 </a>
             </div>
         </div>
       </div>
-      <p className="self-center	">© Copyright 2024. Made by Mehdi</p>
+      <p className="self-center	">© Copyright {new Date().getFullYear()}. Made by Mehdi</p>
     </footer>
   );
 };
