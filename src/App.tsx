@@ -5,20 +5,23 @@ import Skills from "./components/pages/Skills"
 import AboutMe from "./components/pages/AboutMe"
 import Contacts from "./components/pages/Contacts"
 import Footer from "./components/components/Footer"
+import { ThemeProvider } from "./context/ThemeContext"
 
 const App = () =>{
 
 
   return (
-    <div className="bg-background font-sans">
-      <Header />
-      <Home />
-      <Projects />
-      <Skills />
-      <AboutMe />
-      <Contacts />
-      <Footer />
-    </div>
+    <ThemeProvider>
+      <div className="bg-background font-sans min-h-screen">
+        <Header />
+        <Home />
+        <Projects />
+        <Skills />
+        <AboutMe />
+        <Contacts />
+        <Footer />
+      </div>
+    </ThemeProvider>
   )
 }
 

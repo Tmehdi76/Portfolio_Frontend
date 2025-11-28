@@ -4,13 +4,16 @@ module.exports = {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+  darkMode: 'class',
   theme: {
     extend: {
       colors: {
-        'primary': '#00819A',
-        'background': '#282C33',
-        'text-gray': '#B1CDC7',
-        'text-white': '#F5F5FA',
+        'primary': 'var(--color-primary)',
+        'background': 'var(--color-background)',
+        'text-gray': 'var(--color-text-gray)',
+        'text-white': 'var(--color-text-white)',
+        'surface': 'var(--color-surface)',
+        'border': 'var(--color-border)',
       },
       fontFamily: {
         sans: ['Fira Code', 'sans-serif'],
